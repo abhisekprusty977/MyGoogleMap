@@ -28,7 +28,8 @@ class RideNowViewController: UIViewController {
     var animationPath = GMSMutablePath()
     var i: UInt = 0
     var bounds = GMSCoordinateBounds()
-    var gms_Api_key = "AIzaSyDZqLuEcKIxjZ9T-OQ1bVnwEmTPBmYl9EU"
+    //MARK: Give your own Key
+    var gms_Api_key = ""
     var carMarker = GMSMarker()
     var carMovement = ARCarMovement()
     
